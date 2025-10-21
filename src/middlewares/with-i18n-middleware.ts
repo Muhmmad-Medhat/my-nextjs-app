@@ -25,8 +25,22 @@ export const withI18n: MiddlewareFactory = (next) => {
       // Redirect to show locale in URL
       return NextResponse.redirect(new URL(path, request.url));
     } else {
-      // Locale IS in the path - use it and continue
-      return next(request, event);
+      // Locale IS in the path - set it in the request headers for next-intl
+      const requestHeaders = new Headers(request.headers);
+      requestHeaders.set('x-next-intl-locale', localeInPath);
+
+      // Create a new request with the updated headers
+      const modifiedRequest = new NextRequest(request.url, {
+        headers: requestHeaders,
+        method: request.method,
+      });
+
+      const response = await next(modifiedRequest, event);
+
+      // Also set it in response headers for debugging
+      response.headers.set('x-next-intl-locale', localeInPath);
+
+      return response;
     }
   };
 };
