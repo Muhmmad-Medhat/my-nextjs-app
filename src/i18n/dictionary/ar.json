@@ -1,0 +1,56 @@
+{
+  "pages": {
+    "home": {
+      "title": "الصفحة الرئيسية",
+      "hello": "مرحبا بالعالم",
+      "description": "مرحباً بك في موقعنا الإلكتروني",
+      "getStarted": "ابدأ بتحرير",
+      "saveChanges": "احفظ وشاهد التغييرات فوراً",
+      "deployNow": "انشر الآن",
+      "readDocs": "اقرأ الوثائق",
+      "learn": "تعلم",
+      "examples": "أمثلة",
+      "goToNextjs": "اذهب إلى Next.js"
+    },
+    "about": {
+      "title": "حول",
+      "hello": "مرحبا بالعالم",
+      "description": "تعرف على المزيد حولنا",
+      "ourStory": "قصتنا",
+      "ourMission": "مهمتنا",
+      "ourTeam": "فريقنا"
+    }
+  },
+  "components": {
+    "maintenance": {
+      "title": "سَنَعُود قريبًا!",
+      "description": "نعتذر عن الإزعاج. نقوم حاليًا ببعض أعمال الصيانة الضرورية. سنعود للعمل قريبًا!",
+      "button": "العودة إلى الصفحة الرئيسية",
+      "sr_only_icon": "صيانة"
+    },
+    "navigation": {
+      "welcome_message": "مرحبًا،",
+      "logout_button": "تسجيل الخروج",
+      "login_button": "تسجيل الدخول",
+      "signup_button": "إنشاء حساب",
+      "brand_name": "أكمي"
+    },
+    "footer": {
+      "learn": "تعلم",
+      "examples": "أمثلة",
+      "goToNextjs": "اذهب إلى nextjs.org →",
+      "copyright": "جميع الحقوق محفوظة"
+    },
+    "header": {
+      "welcome": "مرحباً",
+      "logo": "الشعار"
+    },
+    "buttons": {
+      "submit": "إرسال",
+      "cancel": "إلغاء",
+      "save": "حفظ",
+      "edit": "تحرير",
+      "delete": "حذف"
+    }
+  }
+}

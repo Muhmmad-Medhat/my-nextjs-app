@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["../src/**/*", "../**/*.stories.*", "../**/*.story.*", "./**/*"],
+  "exclude": ["../node_modules"]
+}

@@ -1,0 +1,56 @@
+{
+  "pages": {
+    "home": {
+      "title": "Home Page",
+      "hello": "Hello World",
+      "description": "Welcome to our website",
+      "getStarted": "Get started by editing",
+      "saveChanges": "Save and see your changes instantly",
+      "deployNow": "Deploy now",
+      "readDocs": "Read our docs",
+      "learn": "Learn",
+      "examples": "Examples",
+      "goToNextjs": "Go to Next.js"
+    },
+    "about": {
+      "title": "About",
+      "hello": "Hello World",
+      "description": "Learn more about us",
+      "ourStory": "Our Story",
+      "ourMission": "Our Mission",
+      "ourTeam": "Our Team"
+    }
+  },
+  "components": {
+    "maintenance": {
+      "title": "we'll be back soon!",
+      "description": "sorry for the inconvenience. we're performing some essential maintenance right now. we'll be back online shortly!",
+      "button": "go back home",
+      "sr_only_icon": "maintenance"
+    },
+    "navigation": {
+      "welcome_message": "Welcome,",
+      "logout_button": "Log out",
+      "login_button": "Log in",
+      "signup_button": "Sign up",
+      "brand_name": "Acme"
+    },
+    "footer": {
+      "learn": "Learn",
+      "examples": "Examples",
+      "goToNextjs": "Go to nextjs.org →",
+      "copyright": "All rights reserved"
+    },
+    "header": {
+      "welcome": "Welcome",
+      "logo": "Logo"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  }
+}
