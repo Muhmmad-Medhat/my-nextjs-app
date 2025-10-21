@@ -47,9 +47,6 @@ export default async function Home(): Promise<JSX.Element> {
               <Button asChild size="lg">
                 <Link href="/sign-in">Sign In</Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/sign-up">Sign Up</Link>
-              </Button>
             </>
           )}
         </div>
