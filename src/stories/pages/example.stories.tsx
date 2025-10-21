@@ -12,10 +12,10 @@
 //   },
 // } satisfies Meta<typeof ExamplePage>;
 
-// export default meta;
+export default {};
 // type Story = StoryObj<typeof meta>;
 
-// export const LoggedOut: Story = {};
+export const Placeholder = {};
 
 // // More on component testing: https://storybook.js.org/docs/writing-tests/interaction-testing
 // export const LoggedIn: Story = {

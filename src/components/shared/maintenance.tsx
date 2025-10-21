@@ -1,5 +1,5 @@
 'use client';
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Link } from '@/i18n/navigation';

@@ -32,16 +32,11 @@ const eslintConfig = [
     ],
   },
   ...compat.extends(
-    'next',
-    'prettier',
-    'next/typescript',
-    'eslint:recommended',
     'next/core-web-vitals',
+    'next/typescript',
+    'prettier',
     'plugin:react/jsx-runtime',
-    'plugin:react/recommended',
-    'plugin:@next/next/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:react-hooks/recommended'
   ),
   {
     files: ['**/*.{js,jsx}'],

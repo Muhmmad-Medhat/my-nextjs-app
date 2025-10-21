@@ -10,7 +10,9 @@ const nextConfig: NextConfig = {
 const withNextIntl = createNextIntlPlugin({
   experimental: {
     // Generate TypeScript declarations for messages to enable type-safe arguments
-    createMessagesDeclaration: resolve(`./src/i18n/dictionary/${defaultLocale}.json`),
+    createMessagesDeclaration: resolve(
+      `./src/i18n/dictionary/${defaultLocale}.json`
+    ),
   },
 });
 

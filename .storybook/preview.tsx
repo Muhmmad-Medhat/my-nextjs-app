@@ -1,6 +1,6 @@
-// @ts-ignore: Allow importing global CSS as a side-effect in Next.js layout
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore: CSS imports are handled by Next.js
 import '@/styles/globals.css';
-import React from 'react';
 import type { Preview } from '@storybook/nextjs-vite';
 import { NextIntlClientProvider } from 'next-intl';
 import { messages, type Messages } from '@/i18n/dictionary';

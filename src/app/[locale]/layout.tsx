@@ -5,7 +5,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import { Open_Sans, Roboto } from 'next/font/google';
-// @ts-ignore: Allow importing global CSS as a side-effect in Next.js layout
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore: CSS imports are handled by Next.js
 import '@/styles/globals.css';
 
 const openSans = Open_Sans({

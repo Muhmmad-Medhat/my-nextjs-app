@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { Maintenance } from '@/components/shared/maintenance';
 
 /**
