@@ -1,4 +1,4 @@
-import enMessages from './en-us.json';
+import enMessages from './en.json';
 import arMessages from './ar.json';
 
 // Export individual languages
@@ -13,7 +13,7 @@ export type Messages = typeof enMessages;
 
 // Export all messages
 export const messages = {
-  'en-us': enMessages,
+  en: enMessages,
   ar: arMessages,
 } as const;
 
@@ -21,6 +21,6 @@ export const messages = {
 export type Locale = keyof typeof messages;
 
 export const messagesByLocale: Record<string, unknown> = {
-  'en-us': enMessages,
+  en: enMessages,
   ar: arMessages,
 };

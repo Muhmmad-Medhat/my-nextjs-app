@@ -1,4 +1,5 @@
-import '../src/app/[locale]/globals.css';
+// @ts-ignore: Allow importing global CSS as a side-effect in Next.js layout
+import '@/styles/globals.css';
 import React from 'react';
 import type { Preview } from '@storybook/nextjs-vite';
 import { NextIntlClientProvider } from 'next-intl';

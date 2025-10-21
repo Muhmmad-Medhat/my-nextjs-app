@@ -1,5 +1,9 @@
 {
-  "i18n-ally.localesPaths": ["src/i18n"],
+  "i18n-ally.localesPaths": ["src/i18n/dictionary"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.enabledFrameworks": ["next-intl"],
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "en",
   "docwriter.style": "JSDoc",
   "typescript.suggest.autoImports": true,
   "typescript.preferences.includePackageJsonAutoImports": "auto",
