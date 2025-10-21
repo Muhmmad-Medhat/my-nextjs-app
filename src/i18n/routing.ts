@@ -8,6 +8,9 @@ export const routing = defineRouting({
   // Used when no locale matches
   defaultLocale: defaultLocale,
 
-  // This is useful for detecting the user's locale automatically
-  localeDetection: true,
+  // Always show locale in URL (including default locale)
+  localePrefix: 'always',
+
+  // Disable automatic locale detection - we handle it in custom middleware
+  localeDetection: false,
 });

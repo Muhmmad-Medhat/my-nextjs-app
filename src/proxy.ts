@@ -1,7 +1,17 @@
-import createMiddleware from 'next-intl/middleware';
-import { routing } from './i18n/routing';
+import { chainMiddleware } from './middlewares/chain';
+import { withNonce } from './middlewares/with-nonce';
+import { withCSP } from './middlewares/with-csp';
+import { withPrefersColorScheme } from './middlewares/with-prefers-color-scheme';
+import { withAuth } from './middlewares/with-auth-middleware';
+import { withI18n } from './middlewares/with-i18n-middleware';
 
-export default createMiddleware(routing);
+export default chainMiddleware([
+  withNonce,
+  withCSP,
+  withPrefersColorScheme,
+  withAuth,
+  withI18n,
+]);
 
 export const config = {
   // Match all pathnames except for
